@@ -1,0 +1,936 @@
+{ 
+"qcm":[
+    {
+        "question": "Quelle est la limite de taille d'un objet dans Amazon S3 ?",
+        "options": [
+            {"text": "5 Go", "is_correct": "False"},
+            {"text": "10 Go", "is_correct": "False"},
+            {"text": "50 Go", "is_correct": "True"},
+            {"text": "100 Go", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Comment pouvez-vous limiter l'accès à un objet stocké dans Amazon S3 ?",
+        "options": [
+            {"text": "En utilisant des politiques de contrôle d'accès basées sur des rôles et des politiques de gestion de l'accès", "is_correct": "True"},
+            {"text": "En configurant l'objet comme privé et en ne donnant l'accès qu'aux utilisateurs autorisés", "is_correct": "True"},
+            {"text": "En utilisant une liste d'accès à l'objet", "is_correct": "False"},
+            {"text": "En configurant le groupe de sécurité du serveur pour restreindre l'accès", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel est le principal avantage des buckets de versioning dans Amazon S3 ?",
+        "options": [
+            {"text": "Permettre la gestion des versions de plusieurs objets stockés dans le même bucket", "is_correct": "True"},
+            {"text": "Permettre la suppression en masse d'objets en cas de besoin", "is_correct": "False"},
+            {"text": "Permettre de réduire le coût de stockage des objets dans le bucket", "is_correct": "False"},
+            {"text": "Permettre la réplication des objets dans des régions différentes", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel type de stockage Amazon S3 est recommandé pour les données à long terme et peu fréquemment accédées ?",
+        "options": [
+            {"text": "S3 Standard", "is_correct": "False"},
+            {"text": "S3 Standard-IA", "is_correct": "True"},
+            {"text": "S3 One Zone-IA", "is_correct": "False"},
+            {"text": "S3 Glacier", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel service AWS permet de lancer et gérer des conteneurs Docker de manière scalable ?",
+        "options": [
+            {"text": "Amazon EC2 Container Service", "is_correct": "True"},
+            {"text": "Amazon RDS", "is_correct": "False"},
+            {"text": "Amazon SNS", "is_correct": "False"},
+            {"text": "Amazon SQS", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel service AWS permet de stocker et d'accéder à des données structurées en utilisant des APIs HTTP ?",
+        "options": [
+            {"text": "Amazon S3", "is_correct": "False"},
+            {"text": "Amazon DynamoDB", "is_correct": "True"},
+            {"text": "Amazon RDS", "is_correct": "False"},
+            {"text": "Amazon Redshift", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quelle est la limite de taille d'un objet dans Amazon S3 si vous utilisez l'API multipart upload pour le télécharger ?",
+"options": [
+{"text": "5 Go", "is_correct": "False"},
+{"text": "10 Go", "is_correct": "False"},
+{"text": "50 Go", "is_correct": "False"},
+{"text": "Plusieurs téraoctets", "is_correct": "True"}
+]
+},
+{
+"question": "Qu'est-ce que AWS Lambda ?",
+"options": [
+{"text": "Un service de stockage de fichiers dans le cloud", "is_correct": "False"},
+{"text": "Un service de base de données NoSQL dans le cloud", "is_correct": "False"},
+{"text": "Un service de calcul sans serveur", "is_correct": "True"},
+{"text": "Un service de gestion des notifications dans le cloud", "is_correct": "False"}
+]
+},
+{
+"question": "Quelle est la principale différence entre les instances réservées et les instances à la demande dans Amazon EC2 ?",
+"options": [
+{"text": "Les instances réservées offrent une réduction de prix importante par rapport aux instances à la demande, mais nécessitent un engagement à long terme", "is_correct": "True"},
+{"text": "Les instances à la demande offrent une réduction de prix importante par rapport aux instances réservées, mais nécessitent une utilisation continue", "is_correct": "False"},
+{"text": "Les instances réservées et les instances à la demande ont le même coût, mais les instances réservées ont une meilleure performance", "is_correct": "False"},
+{"text": "Les instances réservées et les instances à la demande ont le même coût, mais les instances à la demande ont une meilleure flexibilité", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de distribuer des contenus statiques sur un réseau de serveurs dans le monde entier ?",
+"options": [
+{"text": "Amazon SNS", "is_correct": "False"},
+{"text": "Amazon SQS", "is_correct": "False"},
+{"text": "Amazon CloudFront", "is_correct": "True"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker et d'exécuter du code dans le cloud, sans se soucier de la gestion des serveurs sous-jacents ?",
+"options": [
+{"text": "Amazon ECS", "is_correct": "False"},
+{"text": "AWS Lambda", "is_correct": "True"},
+{"text": "Amazon EKS", "is_correct": "False"},
+{"text": "Amazon EMR", "is_correct": "False"}
+]
+},
+{
+"question": "Quel est l'avantage de l'utilisation de l'Auto Scaling dans Amazon EC2 ?",
+"options": [
+{"text": "Une réduction des coûts en éliminant les instances inutiles", "is_correct": "True"},
+{"text": "Une amélioration de la performance des instances", "is_correct": "False"},
+{"text": "Une meilleure sécurité des instances", "is_correct": "False"},
+{"text": "Une simplification de la gestion des instances", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker des fichiers et des données volumineuses dans le cloud, avec un accès à haute vitesse depuis n'importe où dans le monde ?",
+"options": [
+{"text": "Amazon EBS", "is_correct": "False"},
+{"text": "Amazon S3", "is_correct": "True"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon Glacier", "is_correct": "False"}
+]
+},
+{"question": "Quelle est la différence entre Amazon RDS et Amazon DynamoDB ?",
+"options": [
+{"text": "Amazon RDS est un service de base de données relationnelle, tandis qu'Amazon DynamoDB est un service de base de données NoSQL", "is_correct": "True"},
+{"text": "Amazon RDS est un service de base de données NoSQL, tandis qu'Amazon DynamoDB est un service de base de données relationnelle", "is_correct": "False"},
+{"text": "Amazon RDS est un service de base de données graphiques, tandis qu'Amazon DynamoDB est un service de base de données géospatiales", "is_correct": "False"},
+{"text": "Amazon RDS est un service de stockage de données en bloc, tandis qu'Amazon DynamoDB est un service de stockage de données en objets", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de gérer les messages entre différentes applications distribuées ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon SQS", "is_correct": "True"},
+{"text": "Amazon SNS", "is_correct": "False"},
+{"text": "Amazon SWF", "is_correct": "False"}
+]
+},
+{
+"question": "Comment peut-on contrôler l'accès aux ressources AWS ?",
+"options": [
+{"text": "En utilisant des groupes de sécurité pour définir les autorisations", "is_correct": "False"},
+{"text": "En utilisant IAM pour créer et gérer des utilisateurs, des groupes et des rôles avec des autorisations spécifiques", "is_correct": "True"},
+{"text": "En utilisant AWS Config pour surveiller les modifications des ressources", "is_correct": "False"},
+{"text": "En utilisant AWS CloudTrail pour enregistrer les appels d'API", "is_correct": "False"}
+]
+},
+{
+"question": "Quelle est la principale différence entre AWS Elastic Beanstalk et AWS CloudFormation ?",
+"options": [
+{"text": "AWS Elastic Beanstalk est un service de déploiement d'applications, tandis qu'AWS CloudFormation est un service de gestion des infrastructures", "is_correct": "True"},
+{"text": "AWS Elastic Beanstalk est un service de gestion des infrastructures, tandis qu'AWS CloudFormation est un service de déploiement d'applications", "is_correct": "False"},
+{"text": "AWS Elastic Beanstalk est un service de stockage de données, tandis qu'AWS CloudFormation est un service de traitement en lots", "is_correct": "False"},
+{"text": "AWS Elastic Beanstalk est un service de mise en réseau, tandis qu'AWS CloudFormation est un service de stockage de données", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet d'orchestrer des workflows de traitement de données dans le cloud ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon SWF", "is_correct": "True"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel est l'avantage d'utiliser des instances réservées Amazon EC2 ?",
+"options": [
+{"text": "Une facturation à la seconde", "is_correct": "False"},
+{"text": "Une réduction des coûts d'infrastructure allant jusqu'à 75%", "is_correct": "True"},
+{"text": "Une configuration personnalisée de l'infrastructure", "is_correct": "False"},
+{"text": "Un déploiement plus rapide des instances EC2", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de gérer les configurations et les changements d'infrastructure de manière automatisée ?",
+"options": [
+{"text": "Amazon SNS", "is_correct": "False"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon CloudFormation", "is_correct": "True"},
+{"text": "Amazon SQS", "is_correct": "False"}
+]
+},
+{
+"question": "Comment peut-on surveiller l'utilisation des ressources AWS et les performances des applications ?",
+"options": [
+{"text": "En utilisant Amazon S3 pour stocker les journaux d'application", "is_correct": "False"},
+{"text": "En utilisant Amazon CloudFront pour distribuer les applications", "is_correct": "False"},
+{"text": "En utilisant Amazon CloudWatch pour surveiller les métriques de performance et les journaux", "is_correct": "True"},
+{"text": "En utilisant AWS CloudTrail pour suivre les modifications de configuration", "is_correct": "False"}
+]
+},
+{
+"question": "Comment peut-on améliorer les performances de lecture/écriture des données dans Amazon DynamoDB ?",
+"options": [
+{"text": "En augmentant la capacité de lecture/écriture de la table", "is_correct": "True"},
+{"text": "En utilisant des instances plus puissantes", "is_correct": "False"},
+{"text": "En compressant les données stockées dans la table", "is_correct": "False"},
+{"text": "En réduisant la taille de la table", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker et de distribuer des vidéos, des images et d'autres contenus statiques ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "True"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon Glacier", "is_correct": "False"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker des clés et des secrets cryptographiques dans le cloud ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon Kinesis", "is_correct": "False"},
+{"text": "Amazon Secrets Manager", "is_correct": "True"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de surveiller les accès à vos ressources AWS et de contrôler l'accès des utilisateurs et des applications ?",
+"options": [
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "AWS Identity and Access Management (IAM)", "is_correct": "True"},
+{"text": "Amazon VPC", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de créer des clusters de conteneurs et de les gérer à grande échelle ?",
+"options": [
+{"text": "Amazon EBS", "is_correct": "False"},
+{"text": "Amazon ECS", "is_correct": "True"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon Redshift", "is_correct": "False"}
+]
+},
+{
+"question": "Quelle est la fonction de l'outil AWS Elastic Beanstalk ?",
+"options": [
+{"text": "Créer des instances EC2 à partir d'images de disque", "is_correct": "False"},
+{"text": "Configurer des instances EC2 pour un équilibrage de charge", "is_correct": "False"},
+{"text": "Déployer et gérer des applications web à grande échelle sur AWS", "is_correct": "True"},
+{"text": "Surveiller les métriques de performance des instances EC2", "is_correct": "False"}
+]
+},
+{
+"question": "Quelle fonctionnalité d'Amazon RDS permet de restaurer une instance de base de données à une heure donnée dans le passé ?",
+"options": [
+{"text": "La création de sauvegardes automatisées", "is_correct": "False"},
+{"text": "La création de snapshots manuels", "is_correct": "False"},
+{"text": "La fonctionnalité de lecture répétée", "is_correct": "False"},
+{"text": "La restauration à un moment donné (Point-in-Time Restore)", "is_correct": "True"}
+]
+},
+{
+"question": "Quel service AWS permet de gérer les secrets tels que les informations d'authentification et les clés de chiffrement ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon CloudFront", "is_correct": "False"},
+{"text": "Amazon KMS", "is_correct": "True"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker, de gérer et de surveiller les journaux d'application et les fichiers de configuration ?",
+"options": [
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon CloudWatch", "is_correct": "False"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "AWS Systems Manager", "is_correct": "True"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker, de diffuser et de sécuriser des vidéos en streaming en direct ou à la demande ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon Redshift", "is_correct": "False"},
+        {"text": "Amazon CloudFront", "is_correct": "True"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de provisionner des ressources en tant que code à l'aide de modèles JSON ou YAML ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "AWS CloudFormation", "is_correct": "True"},
+        {"text": "Amazon DynamoDB", "is_correct": "False"},
+        {"text": "Amazon EC2", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des fichiers dans le cloud et de les synchroniser avec des ordinateurs et des appareils mobiles ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon EBS", "is_correct": "False"},
+        {"text": "Amazon Glacier", "is_correct": "False"},
+        {"text": "Amazon S3 Glacier", "is_correct": "True"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de lancer des charges de travail sur des clusters de machines virtuelles configurables à la demande ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon EC2", "is_correct": "True"},
+        {"text": "Amazon Redshift", "is_correct": "False"},
+        {"text": "AWS Lambda", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des données en mode objet dans le cloud ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "True"},
+        {"text": "Amazon RDS", "is_correct": "False"},
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "Amazon DynamoDB", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quelle est la fonction de l'outil AWS CloudFormation ?",
+    "options": [
+        {"text": "Surveiller les métriques de performance des instances EC2", "is_correct": "False"},
+        {"text": "Créer des instances EC2 à partir d'images de disque", "is_correct": "False"},
+        {"text": "Créer des ressources AWS en tant que code à l'aide de modèles JSON ou YAML", "is_correct": "True"},
+        {"text": "Configurer des instances EC2 pour un équilibrage de charge", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quelle est la fonction de l'outil AWS Lambda ?",
+    "options": [
+        {"text": "Créer des instances EC2 à partir d'images de disque", "is_correct": "False"},
+        {"text": "Lancer des charges de travail sur des clusters de machines virtuelles", "is_correct": "False"},
+        {"text": "Exécuter du code en réponse à des événements AWS", "is_correct": "True"},
+        {"text": "Créer des ressources AWS en tant que code à l'aide de modèles JSON ou YAML", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des données structurées et semi-structurées dans le cloud ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon DynamoDB", "is_correct": "True"},
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "Amazon EBS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des fichiers volumineux dans le cloud pour une distribution rapide à l'échelle mondiale ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon Glacier", "is_correct": "False"},
+        {"text": "Amazon CloudFront", "is_correct": "False"},
+        {"text": "Amazon S3 Transfer Acceleration", "is_correct": "True"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des données dans un cluster de bases de données relationnelles évolutif dans le cloud ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon RDS", "is_correct": "True"},
+        {"text": "Amazon DynamoDB", "is_correct": "False"},
+        {"text": "Amazon Redshift", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des données dans un cluster de bases de données NoSQL évolutif dans le cloud ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon RDS", "is_correct": "False"},
+        {"text": "Amazon DynamoDB", "is_correct": "True"},
+        {"text": "Amazon Redshift", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des archives de données à long terme dans le cloud ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon Glacier", "is_correct": "True"},
+        {"text": "Amazon CloudFront", "is_correct": "False"},
+        {"text": "Amazon S3 Intelligent-Tiering", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des fichiers volumineux, des vidéos, des images et des données statiques dans le cloud ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "True"},
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "Amazon RDS", "is_correct": "False"},
+        {"text": "Amazon DynamoDB", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de lancer des instances EC2 à partir de modèles d'image de disque préconfigurés ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon EC2 Auto Scaling", "is_correct": "False"},
+        {"text": "Amazon CloudWatch", "is_correct": "False"},
+        {"text": "Amazon EC2 Launch Templates", "is_correct": "True"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de lancer des charges de travail sans serveur en réponse à des événements AWS ?",
+    "options": [
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "AWS Lambda", "is_correct": "True"},
+        {"text": "Amazon RDS", "is_correct": "False"},
+        {"text": "Amazon DynamoDB", "is_correct": "False"}
+    ]
+
+},
+{
+    "question": "Quel service AWS permet de configurer et gérer des clusters Kubernetes ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon EKS", "is_correct": "True"},
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "Amazon Elastic Beanstalk", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des fichiers système sur un stockage persistant pour les instances EC2 ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon EBS", "is_correct": "True"},
+        {"text": "Amazon EFS", "is_correct": "False"},
+        {"text": "Amazon Glacier", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet d'acheminer le trafic vers différentes destinations en fonction des règles de routage définies ?",
+    "options": [
+        {"text": "Amazon Route 53", "is_correct": "True"},
+        {"text": "Amazon VPC", "is_correct": "False"},
+        {"text": "Amazon API Gateway", "is_correct": "False"},
+        {"text": "Amazon CloudFront", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de surveiller les ressources AWS et les applications que vous exécutez dans le cloud ?",
+    "options": [
+        {"text": "Amazon CloudFront", "is_correct": "False"},
+        {"text": "Amazon CloudWatch", "is_correct": "True"},
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon Route 53", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de créer, déployer et gérer des applications web hautement évolutives dans le cloud ?",
+    "options": [
+        {"text": "Amazon CloudFront", "is_correct": "False"},
+        {"text": "Amazon CloudWatch", "is_correct": "False"},
+        {"text": "Amazon Elastic Beanstalk", "is_correct": "True"},
+        {"text": "Amazon Route 53", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de lancer des charges de travail batch massives et parallèles à l'aide de modèles de travail ?",
+    "options": [
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "Amazon Batch", "is_correct": "True"},
+        {"text": "Amazon EKS", "is_correct": "False"},
+        {"text": "Amazon Elastic Beanstalk", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet d'orchestrer et de gérer des conteneurs Docker à grande échelle ?",
+    "options": [
+        {"text": "Amazon ECS", "is_correct": "True"},
+        {"text": "Amazon EKS", "is_correct": "False"},
+        {"text": "Amazon Elastic Beanstalk", "is_correct": "False"},
+        {"text": "Amazon CloudWatch", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des fichiers système partagés à l'aide du protocole NFS (Network File System) ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EBS", "is_correct": "False"},
+{"text": "Amazon EFS", "is_correct": "True"},
+{"text": "Amazon Glacier", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker des archives de données à long terme à des coûts très bas ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EBS", "is_correct": "False"},
+{"text": "Amazon EFS", "is_correct": "False"},
+{"text": "Amazon Glacier", "is_correct": "True"}
+]
+},
+{
+"question": "Quel service AWS permet de fournir une connectivité sécurisée entre un réseau local et une VPC AWS ?",
+"options": [
+{"text": "Amazon VPC", "is_correct": "True"},
+{"text": "Amazon Route 53", "is_correct": "False"},
+{"text": "Amazon Elastic Beanstalk", "is_correct": "False"},
+{"text": "Amazon API Gateway", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de configurer des règles de pare-feu pour les instances EC2 ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon VPC", "is_correct": "False"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon Security Groups", "is_correct": "True"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker et de gérer des clés de chiffrement ?",
+"options": [
+{"text": "AWS KMS", "is_correct": "True"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon VPC", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de déployer des applications en conteneurs sur une infrastructure gérée par AWS ?",
+"options": [
+{"text": "Amazon Elastic Beanstalk", "is_correct": "False"},
+{"text": "Amazon ECS", "is_correct": "True"},
+{"text": "Amazon EKS", "is_correct": "False"},
+{"text": "Amazon API Gateway", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet d'ajouter des capacités de messagerie à une application ?",
+"options": [
+{"text": "Amazon Simple Queue Service (SQS)", "is_correct": "True"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon CloudFront", "is_correct": "False"},
+{"text": "Amazon Elastic Beanstalk", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker et de gérer des images de machine virtuelle (VM) ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon ECR", "is_correct": "True"},
+{"text": "Amazon VPC", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de lancer des tâches en parallèle sur de nombreux serveurs ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "AWS Batch", "is_correct": "True"},
+{"text": "Amazon VPC", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de déployer des applications en Java, .NET, PHP, Node.js, Python, Ruby, Go et Docker ?",
+"options": [
+{"text": "Amazon CloudFront", "is_correct": "False"},
+{"text": "Amazon Elastic Beanstalk", "is_correct": "True"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de lancer et de gérer des bases de données relationnelles ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon Redshift", "is_correct": "False"},
+{"text": "Amazon DynamoDB", "is_correct": "False"},
+{"text": "Amazon RDS", "is_correct": "True"}
+]
+},
+{
+"question": "Quel service AWS permet d'envoyer des e-mails à grande échelle ?",
+"options": [
+{"text": "Amazon CloudFront", "is_correct": "False"},
+{"text": "Amazon SES", "is_correct": "True"},
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker des fichiers volumineux de manière sécurisée et à grande échelle ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EBS", "is_correct": "False"},
+{"text": "Amazon EFS", "is_correct": "True"},
+{"text": "Amazon Glacier", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet de stocker des objets à long terme à des coûts très bas ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon EBS", "is_correct": "False"},
+{"text": "Amazon EFS", "is_correct": "False"},
+{"text": "Amazon Glacier", "is_correct": "True"}
+]
+},
+{
+"question": "Quel service AWS permet d'exécuter du code sans avoir à gérer des serveurs ?",
+"options": [
+{"text": "Amazon CloudFront", "is_correct": "False"},
+{"text": "Amazon Elastic Beanstalk", "is_correct": "False"},
+{"text": "AWS Lambda", "is_correct": "True"},
+{"text": "Amazon RDS", "is_correct": "False"}
+]
+},
+{
+"question": "Quel service AWS permet d'ajouter des capacités de streaming vidéo à une application ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon CloudFront", "is_correct": "True"},
+{"text": "Amazon SES", "is_correct": "False"},
+{"text": "Amazon RDS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des clés et des valeurs dans le cloud, avec une haute disponibilité et une grande élasticité ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon DynamoDB", "is_correct": "True"},
+        {"text": "Amazon Redshift", "is_correct": "False"},
+        {"text": "Amazon RDS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de déployer des applications en conteneurs ?",
+    "options": [
+        {"text": "Amazon Elastic Beanstalk", "is_correct": "False"},
+        {"text": "Amazon EKS", "is_correct": "True"},
+        {"text": "Amazon ECS", "is_correct": "False"},
+        {"text": "AWS Lambda", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de connecter des ressources Amazon VPC à des réseaux d'entreprise locaux ?",
+    "options": [
+        {"text": "AWS Direct Connect", "is_correct": "True"},
+        {"text": "Amazon EC2", "is_correct": "False"},
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon RDS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de surveiller les ressources et les applications Amazon Web Services ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon CloudFront", "is_correct": "False"},
+        {"text": "Amazon CloudWatch", "is_correct": "True"},
+        {"text": "Amazon RDS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker des clés de chiffrement en toute sécurité ?",
+    "options": [
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "AWS KMS", "is_correct": "True"},
+        {"text": "Amazon Redshift", "is_correct": "False"},
+        {"text": "Amazon RDS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de stocker et de partager des conteneurs Docker ?",
+    "options": [
+        {"text": "Amazon EFS", "is_correct": "False"},
+        {"text": "Amazon S3", "is_correct": "False"},
+        {"text": "Amazon ECR", "is_correct": "True"},
+        {"text": "Amazon RDS", "is_correct": "False"}
+    ]
+},
+{
+    "question": "Quel service AWS permet de déployer des applications en conteneurs sur un cluster géré de serveurs EC2 ?",
+    "options": [
+        {"text": "Amazon Elastic Beanstalk", "is_correct": "False"},
+        {"text": "Amazon EKS", "is_correct": "False"},
+        {"text": "Amazon ECS", "is_correct": "True"},
+        {"text": "AWS Lambda", "is_correct": "False"}
+    ]
+},
+{
+"question": "Quel service AWS permet de transférer des fichiers volumineux en toute sécurité ?",
+"options": [
+{"text": "Amazon S3", "is_correct": "False"},
+{"text": "Amazon Transfer Family", "is_correct": "True"},
+{"text": "Amazon EC2", "is_correct": "False"},
+{"text": "Amazon Redshift", "is_correct": "False"}
+]
+},
+    {
+        "question": "Dans quel service AWS pouvez-vous exécuter des conteneurs ?",
+        "options": [
+            {"text": "AWS Lambda", "is_correct": "False"},
+            {"text": "Amazon EC2", "is_correct": "False"},
+            {"text": "Amazon ECS", "is_correct": "True"},
+            {"text": "Amazon S3", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Qu'est-ce que DynamoDB ?",
+        "options": [
+            {"text": "Une base de données relationnelle", "is_correct": "False"},
+            {"text": "Une base de données en mémoire", "is_correct": "False"},
+            {"text": "Une base de données NoSQL", "is_correct": "True"},
+            {"text": "Un service de messagerie", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Qu'est-ce qu'un groupe de sécurité AWS ?",
+        "options": [
+            {"text": "Un groupe de serveurs physiques", "is_correct": "False"},
+            {"text": "Un groupe de serveurs virtuels", "is_correct": "False"},
+            {"text": "Un ensemble de règles de pare-feu pour contrôler l'accès aux instances EC2", "is_correct": "True"},
+            {"text": "Un service de stockage de fichiers", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Comment pouvez-vous protéger vos données dans Amazon S3 ?",
+        "options": [
+            {"text": "En utilisant le chiffrement côté client", "is_correct": "False"},
+            {"text": "En utilisant le chiffrement côté serveur", "is_correct": "True"},
+            {"text": "En utilisant la réplication multi-régions", "is_correct": "False"},
+            {"text": "En utilisant des mots de passe forts", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Qu'est-ce que CloudFront ?",
+        "options": [
+            {"text": "Un service de streaming vidéo en direct", "is_correct": "False"},
+            {"text": "Un service de distribution de contenu (CDN)", "is_correct": "True"},
+            {"text": "Un service de sauvegarde et de restauration de données", "is_correct": "False"},
+            {"text": "Un service de conteneurs", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Qu'est-ce que AWS Lambda ?",
+        "options": [
+            {"text": "Un service de base de données NoSQL", "is_correct": "False"},
+            {"text": "Un service de traitement de données en temps réel", "is_correct": "False"},
+            {"text": "Un service de déploiement de conteneurs", "is_correct": "False"},
+            {"text": "Un service de calcul sans serveur", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quel est le service AWS qui vous permet de stocker des données de manière illimitée ?",
+        "options": [
+            {"text": "Amazon S3", "is_correct": "True"},
+            {"text": "Amazon RDS", "is_correct": "False"},
+            {"text": "Amazon EC2", "is_correct": "False"},
+            {"text": "Amazon DynamoDB", "is_correct": "False"}
+        ]
+    },
+    {
+"question": "Qu'est-ce que SNS ?",
+"options": [
+{"text": "Amazon Simple Notification Service", "is_correct": "True"},
+{"text": "Amazon Simple Network Service", "is_correct": "False"},
+{"text": "Amazon Simple Naming Service", "is_correct": "False"},
+{"text": "Amazon Simple Node Service", "is_correct": "False"}
+]
+},
+
+    {
+        "question": "Quel service AWS permet d'envoyer des messages de façon asynchrone entre des composants d'application distribués ?",
+        "options": [
+            {"text": "Amazon SNS", "is_correct": "False"},
+            {"text": "Amazon SQS", "is_correct": "True"},
+            {"text": "Amazon SES", "is_correct": "False"},
+            {"text": "Amazon SWF", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel service AWS permet d'exécuter des scripts et des commandes directement sur les instances EC2 ?",
+        "options": [
+            {"text": "Amazon EFS", "is_correct": "False"},
+            {"text": "Amazon RDS", "is_correct": "False"},
+            {"text": "Amazon S3", "is_correct": "False"},
+            {"text": "Amazon EC2 Systems Manager", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quel langage de programmation peut être utilisé pour écrire des fonctions AWS Lambda ?",
+        "options": [
+            {"text": "Java", "is_correct": "True"},
+            {"text": "Python", "is_correct": "True"},
+            {"text": "JavaScript", "is_correct": "True"},
+            {"text": "C#", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quel service AWS permet de stocker et de gérer des fichiers audio, vidéo et de données volumineux dans le cloud ?",
+        "options": [
+            {"text": "Amazon S3", "is_correct": "True"},
+            {"text": "Amazon RDS", "is_correct": "False"},
+            {"text": "Amazon Glacier", "is_correct": "False"},
+            {"text": "Amazon CloudFront", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quelle méthode de déploiement permet de déployer une nouvelle version d'une application Elastic Beanstalk tout en minimisant le temps d'arrêt ?",
+        "options": [
+            {"text": "Déploiement complet", "is_correct": "False"},
+            {"text": "Déploiement en deux étapes", "is_correct": "False"},
+            {"text": "Déploiement Rolling", "is_correct": "True"},
+            {"text": "Déploiement en tache bleue/verte", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Comment s'appelle le service AWS permettant de créer des règles pour déclencher des actions en fonction de certains événements dans le cloud AWS ?",
+        "options": [
+            {"text": "Amazon CloudFormation", "is_correct": "False"},
+            {"text": "Amazon Inspector", "is_correct": "False"},
+            {"text": "Amazon CloudTrail", "is_correct": "False"},
+            {"text": "Amazon CloudWatch Events", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quel est le service AWS qui permet de créer et de gérer des clés de chiffrement pour protéger les données stockées dans les services AWS ?",
+        "options": [
+            {"text": "Amazon Kinesis", "is_correct": "False"},
+            {"text": "Amazon CloudHSM", "is_correct": "True"},
+            {"text": "Amazon VPC", "is_correct": "False"},
+            {"text": "Amazon CloudFront", "is_correct": "False"}
+            ]
+    },
+
+{
+        "question": "Combien de types de verrous de base de données prend en charge Amazon RDS ?",
+        "options": [
+            {"text": "1", "is_correct": "False"},
+            {"text": "2", "is_correct": "False"},
+            {"text": "3", "is_correct": "True"},
+            {"text": "4", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quelle est la durée maximale des vidéos stockées dans Amazon S3 ?",
+        "options": [
+            {"text": "1 heure", "is_correct": "False"},
+            {"text": "24 heures", "is_correct": "False"},
+            {"text": "7 jours", "is_correct": "False"},
+            {"text": "Aucune limite", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quel service AWS peut être utilisé pour déployer des applications conteneurisées ?",
+        "options": [
+            {"text": "Amazon S3", "is_correct": "False"},
+            {"text": "Amazon EC2", "is_correct": "False"},
+            {"text": "AWS Lambda", "is_correct": "False"},
+            {"text": "Amazon ECS", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quel type de base de données est Amazon DynamoDB ?",
+        "options": [
+            {"text": "Relationnelle", "is_correct": "False"},
+            {"text": "Clé-valeur", "is_correct": "True"},
+            {"text": "Document", "is_correct": "False"},
+            {"text": "Graph", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quelle est la limite de taille maximale des fichiers à télécharger dans Amazon S3 en une seule opération ?",
+        "options": [
+            {"text": "5 Go", "is_correct": "False"},
+            {"text": "10 Go", "is_correct": "False"},
+            {"text": "50 Go", "is_correct": "True"},
+            {"text": "100 Go", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Comment appelle-t-on le service AWS qui permet de stocker des fichiers et de les partager avec d'autres utilisateurs ?",
+        "options": [
+            {"text": "Amazon S3", "is_correct": "False"},
+            {"text": "Amazon EC2", "is_correct": "False"},
+            {"text": "AWS Lambda", "is_correct": "False"},
+            {"text": "Amazon SNS", "is_correct": "False"},
+            {"text": "Amazon WorkDocs", "is_correct": "True"}
+        ]
+    },
+    {
+        "question": "Quelle est la différence entre Amazon RDS et Amazon DynamoDB ?",
+        "options": [
+            {"text": "Amazon RDS est une base de données relationnelle, tandis qu'Amazon DynamoDB est une base de données NoSQL", "is_correct": "True"},
+            {"text": "Amazon RDS est une base de données NoSQL, tandis qu'Amazon DynamoDB est une base de données relationnelle", "is_correct": "False"},
+            {"text": "Amazon RDS est une base de données en mémoire, tandis qu'Amazon DynamoDB est une base de données sur disque", "is_correct": "False"},
+            {"text": "Amazon RDS est une base de données sur disque, tandis qu'Amazon DynamoDB est une base de données en mémoire", "is_correct": "False"}
+
+]
+},
+
+    {
+        "question": "Quelle est la différence entre SQS et SNS ?",
+        "options": [
+            {"text": "SNS est un service de messagerie asynchrone tandis que SQS est un service de notification synchrone.", "is_correct": "False"},
+            {"text": "SQS est un service de messagerie asynchrone tandis que SNS est un service de notification synchrone.", "is_correct": "True"},
+            {"text": "SNS est utilisé pour envoyer des messages à des files d'attente SQS.", "is_correct": "False"},
+            {"text": "SQS est utilisé pour envoyer des messages à des clients SNS.", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel type de stockage Amazon S3 est optimisé pour l'accès fréquent aux données ?",
+        "options": [
+            {"text": "S3 One Zone-Infrequent Access (S3 One Zone-IA)", "is_correct": "False"},
+            {"text": "S3 Standard-Infrequent Access (S3 Standard-IA)", "is_correct": "True"},
+            {"text": "S3 Glacier", "is_correct": "False"},
+            {"text": "S3 Intelligent-Tiering", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Comment peut-on configurer le pare-feu EC2 pour permettre l'accès SSH à une instance ?",
+        "options": [
+            {"text": "En configurant les règles de sécurité de groupe de sécurité d'instance pour autoriser l'accès SSH depuis l'adresse IP du client.", "is_correct": "True"},
+            {"text": "En configurant le pare-feu du système d'exploitation de l'instance pour autoriser l'accès SSH depuis l'adresse IP du client.", "is_correct": "False"},
+            {"text": "En configurant les règles de sécurité de groupe de sécurité de réseau pour autoriser l'accès SSH depuis l'adresse IP du client.", "is_correct": "False"},
+            {"text": "En configurant les règles de sécurité de groupe de sécurité d'instance pour autoriser l'accès SSH depuis toutes les adresses IP.", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Quel est le service AWS pour l'analyse de données en temps réel ?",
+        "options": [
+            {"text": "Amazon Redshift", "is_correct": "False"},
+            {"text": "Amazon Kinesis", "is_correct": "True"},
+            {"text": "Amazon Athena", "is_correct": "False"},
+            {"text": "Amazon QuickSight", "is_correct": "False"}
+        ]
+    },
+    {
+        "question": "Comment peut-on configurer la mise en service d'une instance EC2 ?",
+        "options": [
+            {"text": "En créant une image de l'instance et en lançant des instances supplémentaires à partir de cette image.", "is_correct": "True"},
+            {"text": "En dupliquant manuellement les fichiers de configuration de l'instance sur de nouvelles instances.", "is_correct": "False"},
+            {"text": "En modifiant les propriétés de l'instance en temps réel pour ajouter des ressources supplémentaires.", "is_correct": "False"},
+            {"text": "En créant une sauvegarde de l'instance et en la restaurant sur de nouvelles instances.", "is_correct": "False"}
+]
+}
+]
+}
