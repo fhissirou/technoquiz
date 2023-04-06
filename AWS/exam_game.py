@@ -19,16 +19,21 @@ def generate_question(questionnaire):
     is_correct = False
     try:
         answer = int(answer)
-        if answer > 0 and answer <= len(options) and options[answer-1]["is_correct"]:
-            is_correct = True
+        print(options)
+        if answer > 0 and answer <= len(options) and options[answer-1]["is_correct"]=='True':
+            is_correct =True
     except ValueError:
         pass
     if is_correct:
-        print("Correct!")
+        print("\nCorrect!")
         return 1
     else:
-        print("Incorrect!")
-        print("--> La bonne réponse est: "+str([d["text"] for d in options if d['is_correct']==True][0]))
+        print("\nIncorrect! et la bonne réponse est: ")
+        n=1
+        for d in options:
+            if d['is_correct']=='True':
+                print("\t--> "+str(n)+". " +str(d["text"]))
+                n+=1
         return 0
 
 
